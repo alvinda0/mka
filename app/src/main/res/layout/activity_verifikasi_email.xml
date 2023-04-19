@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginRegister.VerifikasiEmailActivity">
+    <ImageView
+        android:id="@+id/awanpojok"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="484dp"
+        android:src="@drawable/awanpojok"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="92dp"
+        android:src="@drawable/awan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="112dp"
+        android:src="@drawable/sandi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Lupa Kata Sandi"
+        android:textColor="@color/app_them"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="50dp"
+        android:text="Masukan alamat email untuk menerima OTP"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/MasukEmailLupaSandi"
+            style="@style/custom_card_view_style"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="410dp"
+            android:layout_marginEnd="33dp"
+            android:background="@drawable/edit_text_background"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:drawablePadding="8dp"
+            android:drawableTint="@color/abuabu"
+            android:ems="10"
+            android:hint="Email"
+            android:padding="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/kirimlupakatasandi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/bg_button"
+        android:backgroundTint="@color/app_them"
+        android:text="Kirim"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

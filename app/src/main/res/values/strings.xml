@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MKA</string>
+    <string name="started_title">Silakan masuk ke akun anda</string>
+    <string name="started_title2">Silakan daftarkan akun anda</string>
+    <string name="kata_sandi">Lupa kata sandi</string>
+    <string name="Google">Masuk dengan Google</string>
+    <string name="Lanjut">Lanjut</string>
+    <string name="Masuk">Masuk</string>
+    <string name="Daftar">Daftar</string>
+    <string name="login_havent_account">
+
+        <font color="#00C9BB"><b>Daftar disini</b></font>
+    </string>
+    <string name="text_login_havent_account">
+
+        <font><b>Belum punya akun?</b></font>
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="profilealumni">Profile alumni</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
